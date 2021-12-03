@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "ES6",
+    "declaration": true,
+    "outDir": "./build",
+    "strict": true,
+    "lib": ["es6"],
+    "downlevelIteration": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "**/__tests__/*"]
+}

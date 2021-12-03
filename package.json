@@ -2,9 +2,10 @@
   "name": "kivet_npm_package",
   "version": "1.0.1",
   "description": "一个简单的 npm 包项目",
-  "main": "src/index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "author": "kivet",
   "license": "ISC",
@@ -16,5 +17,9 @@
     "url": "https://github.com/kivet-h/kivet_npm_package/issues",
     "email": "kivet666@dingtalk.com"
   },
-  "homepage": "https://github.com/kivet-h/kivet_npm_package/blob/master/README.md"
+  "homepage": "https://github.com/kivet-h/kivet_npm_package/blob/master/README.md",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  },
+  "type": "module"
 }
