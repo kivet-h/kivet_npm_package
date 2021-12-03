@@ -21,5 +21,6 @@
   "devDependencies": {
     "typescript": "^4.5.2"
   },
-  "type": "module"
+  "type": "module",
+  "files": ["build/**/*"]
 }
