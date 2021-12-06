@@ -14,6 +14,18 @@ node + TS + ES6
 
 > $ yarn add kivet_npm_package
 
+# Usage
+
+```javascript
+import { genderData, joinArr, clearSame } from 'kivet_npm_package';
+
+const arr = ['111', '222', '333', '222'];
+
+console.log('基础数据：', genderData);
+console.log('拼接数组：', joinArr(arr));
+console.log('数组去重：', clearSame(arr));
+```
+
 # 变更日志
 
 - v1.0.0
